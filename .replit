@@ -1,2 +1,2 @@
 language = "go"
-run = "go run 'Frank's top games.go'"
+run = "go run 'Franks top games.go'"
