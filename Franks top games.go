@@ -14,65 +14,65 @@ type ginfo struct {
 
 func game(i int) (int, string, int, string, string) {
 
-  var n int
 
-  Game[0] := {
+
+  Game1 := {
     Number: 1,
     Name: "Banished",
     Hrs: 349,
     Genre: "Simulation", "Stragey", "City Builder",
     Synopsis: "You and a group of exiled travelers who decide to restart their lives in a new land. They have only the clothes on their backs and a cart filled with supplies from their homeland. The townspeople of Banished are your primary resource. You must build, survive, and if you’re good enough, thrive.",
   }
-  G[1] := {
+  Game2 := {
     Number: 2,
     Name:
     Hrs: 
     Genre:
     Synopsis:
   }
-  G[2] := {
+  Game3 := {
     Number: 3,
     Name:
     Hrs: 
     Genre:
     Synopsis:
   }
-  G[3] := {
+  Game4 := {
     Number: 4,
     Name:
     Hrs: 
     Genre:
     Synopsis:
   }
-  G[4] := {
+  Game5 := {
     Number: 5,
     Name:
     Hrs: 
     Genre:
     Synopsis:
   }
-  G[5] := {
+  Game6 := {
     Number: 6,
     Name:
     Hrs: 
     Genre:
     Synopsis:
   }
-  G[6] := {
+  Game7 := {
     Number: 7,
     Name:
     Hrs: 
     Genre:
     Synopsis:
   }
-  G[7] := {
+  Game8 := {
     Number: 8,
     Name:
     Hrs: 
     Genre:
     Synopsis:
   }
-  G[8] := {
+  Game9 := {
     Number: 9,
     Name:
     Hrs: 
