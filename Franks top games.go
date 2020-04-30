@@ -235,7 +235,7 @@ func main (){
     }else if x == "8" {
       fmt.Println("#",game8.Number,game8.Name,"hours played:",game8.Hrs,"\n","genre:",game8.Genre,"\n","synopsis:",game8.Synopsis)
     }else if x == "9" {
-      fmt.Println("#",,game9.Number,game9.Name,"hours played:",game9.Hrs,"\n","genre:",game9.Genre,"\n","synopsis:",game9.Synopsis)
+      fmt.Println("#",game9.Number,game9.Name,"hours played:",game9.Hrs,"\n","genre:",game9.Genre,"\n","synopsis:",game9.Synopsis)
     }else if x == "10" {
       fmt.Println("#",game10.Number,game10.Name,"hours played:",game10.Hrs,"\n","genre:",game10.Genre,"\n","synopsis:",game10.Synopsis)
     }else if x == "11" {
@@ -243,17 +243,17 @@ func main (){
     }else if x == "12" {
       fmt.Println("#",game12.Number,game12.Name,"hours played:",game12.Hrs,"\n","genre:",game12.Genre,"\n","synopsis:",game12.Synopsis)
     }else if x == "13" {
-      fmt.Println("#",game13.Number,game13.Name,"hours played:"game13.Hrs,"\n","genre:",game13.Genre,"\n","synopsis:"game13.Synopsis)
+      fmt.Println("#",game13.Number,game13.Name,"hours played:",game13.Hrs,"\n","genre:",game13.Genre,"\n","synopsis:",game13.Synopsis)
     }else if x == "14" {
       fmt.Println("#",game14.Number,game14.Name,"hours played:",game14.Hrs,"\n","genre:",game14.Genre,"\n","synopsis:",game14.Synopsis)
     }else if x == "15" {
-      fmt.Println("#",game15.Number,game15.Name,"hours played:",game15.Hrs,"\n","genre:"game15.Genre,"\n","synopsis:",game15.Synopsis)
+      fmt.Println("#",game15.Number,game15.Name,"hours played:",game15.Hrs,"\n","genre:",game15.Genre,"\n","synopsis:",game15.Synopsis)
     }else if x == "16" {
       fmt.Println("#",game16.Number,game16.Name,"hours played:",game16.Hrs,"\n","genre:",game16.Genre,"\n","synopsis:",game16.Synopsis)
     }else if x == "17" {
-      fmt.Println("#"game17.Number,game17.Name,"hours played:",game17.Hrs,"\n","genre:",game17.Genre,"\n","synopsis:",game17.Synopsis)
+      fmt.Println("#",game17.Number,game17.Name,"hours played:",game17.Hrs,"\n","genre:",game17.Genre,"\n","synopsis:",game17.Synopsis)
     }else if x == "18" {
-      fmt.Println("#",game18.Number,game18.Name,"hours played:"game18.Hrs,"\n","genre:",game18.Genre,"\n","synopsis:",game18.Synopsis)
+      fmt.Println("#",game18.Number,game18.Name,"hours played:",game18.Hrs,"\n","genre:",game18.Genre,"\n","synopsis:",game18.Synopsis)
     }else if x == "19" {
       fmt.Println("#",game19.Number,game19.Name,"hours played:",game19.Hrs,"\n","genre:",game19.Genre,"\n","synopsis:",game19.Synopsis)
     }else if x == "20" {
