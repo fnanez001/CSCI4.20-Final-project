@@ -2,6 +2,7 @@
 // 4-25-20
 // program to display my top 25 games played on steam and give information for user to learn more about the game.
 
+//load main package and import fmt, math/rand, time, and strconv packages into program.
 package main
 
 import (
@@ -11,6 +12,7 @@ import (
   "strconv"
 )
 
+// create a struct for game info objects to include number, hours played, name, genre, and synopsis
 type ginfo struct {
   Number  int
   Hrs float64
@@ -18,6 +20,7 @@ type ginfo struct {
 
 }
 
+// create a function that can pick a random number and can convert to string to use in if statements later
 func randPick(answer string) (string) {
  rand.Seed(time.Now().UnixNano())
  n := (rand.Intn(24)+1)
@@ -25,6 +28,7 @@ func randPick(answer string) (string) {
  return number
 }
 
+// create your main func inlcude all objects and classes for games and info needed.
 func main (){
 
 
@@ -204,19 +208,25 @@ func main (){
     Synopsis: "2070. Our world has changed. The rising level of the ocean has harmed the coastal cities and climate change has made large stretches of land inhospitable. Master resources, diplomacy, and trade in the most comprehensive economic management system in the Anno series. Build your society of the future, colonize islands, and create sprawling megacities with multitudes of buildings, vehicles, and resources to manage. Engineer production chains such as Robot Factories, Oil Refineries, and Diamond Mines, and trade with a variety of goods and commodities.",
   }
 
+ // inside program create variable for user to use for input
  var x string
  
+ // inside main: print initial game info to include number and name for user  to make a selection
  fmt.Println(game1.Number,game1.Name,"\n",game2.Number,game2.Name,"\n",game3.Number,game3.Name,"\n",game4.Number,game4.Name,"\n",game5.Number,game5.Name,"\n",game6.Number,game6.Name,"\n",game7.Number,game7.Name,"\n",game8.Number,game8.Name,"\n",game9.Number,game9.Name,"\n",game10.Number,game10.Name,"\n",game11.Number,game11.Name,"\n",game12.Number,game12.Name,"\n",game13.Number,game13.Name,"\n",game14.Number,game14.Name,"\n",game15.Number,game15.Name,"\n",game16.Number,game16.Name,"\n",game17.Number,game17.Name,"\n",game18.Number,game18.Name,"\n",game19.Number,game19.Name,"\n",game20.Number,game20.Name,"\n",game21.Number,game21.Name,"\n",game22.Number,game22.Name,"\n",game23.Number,game23.Name,"\n",game24.Number,game24.Name,"\n",game25.Number,game25.Name)
 
+ // inside main: print statement to explain how program works and how to work program
  fmt.Println("Above is a list of games played by me and the number associated with them in order from most played game down to least played. Please enter the game you would like to know more about by entering the associated number. You may also select 'random' if you need help picking somewhere to start.You may also type 'done' to end the program.")
  fmt.Scanln(&x)
 
+ // inside main: create loop that continues until user types "done"as selection or some itteration to complete program.
  for x != "Done" || x != "done" || x != "DONE" {
+   // inside loop in main have loop to use rand func to get a random number as a string.
     for x == "random" || x == "Random" || x == "RANDOM" {
      x := randPick(x)
      fmt.Println("The random number you are given is",x)
     }
-     
+
+    // inside itial loop until "done": after random, or if number selection made use if statements to get the appropriate info from selection to display 
     if x == "1" {
       fmt.Println("#",game1.Number,game1.Name,"hours played:",game1.Hrs,"\n","genre:",game1.Genre,"\n","synopsis:",game1.Synopsis)
     }else if x == "2" {
@@ -270,6 +280,8 @@ func main (){
     }else {
       fmt.Println("Please select a valid option.")
     }
+
+    // prompt for new selection after appropriate info displayed before repeating loop or ending program
     fmt.Println("Please enter the game you would like to know more about by entering the associated number. You may also select 'random' if you need help picking somewhere to start.You may also type 'done' to end the program.")
     fmt.Println(game1.Number,game1.Name,"\n",game2.Number,game2.Name,"\n",game3.Number,game3.Name,"\n",game4.Number,game4.Name,"\n",game5.Number,game5.Name,"\n",game6.Number,game6.Name,"\n",game7.Number,game7.Name,"\n",game8.Number,game8.Name,"\n",game9.Number,game9.Name,"\n",game10.Number,game10.Name,"\n",game11.Number,game11.Name,"\n",game12.Number,game12.Name,"\n",game13.Number,game13.Name,"\n",game14.Number,game14.Name,"\n",game15.Number,game15.Name,"\n",game16.Number,game16.Name,"\n",game17.Number,game17.Name,"\n",game18.Number,game18.Name,"\n",game19.Number,game19.Name,"\n",game20.Number,game20.Name,"\n",game21.Number,game21.Name,"\n",game22.Number,game22.Name,"\n",game23.Number,game23.Name,"\n",game24.Number,game24.Name,"\n",game25.Number,game25.Name)
     fmt.Scanln(&x)
