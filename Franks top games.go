@@ -215,7 +215,6 @@ func main (){
     for x == "random" || x == "Random" || x == "RANDOM" {
      x := randPick(x)
      fmt.Println("The random number you are given is",x)
-     
     }
      
     if x == "1" {
