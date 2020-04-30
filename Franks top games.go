@@ -219,7 +219,7 @@ func main (){
  fmt.Scanln(&x)
 
  // inside main: create loop that continues until user types "done"as selection or some itteration to complete program.
- for x != "Done" || x != "done" || x != "DONE" {
+ for x != "Done" && x != "done" && x != "DONE" {
    // inside loop in main have loop to use rand func to get a random number as a string.
     for x == "random" || x == "Random" || x == "RANDOM" {
      X := randPick(x)
