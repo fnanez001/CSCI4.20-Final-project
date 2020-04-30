@@ -222,8 +222,9 @@ func main (){
  for x != "Done" || x != "done" || x != "DONE" {
    // inside loop in main have loop to use rand func to get a random number as a string.
     for x == "random" || x == "Random" || x == "RANDOM" {
-     x := randPick(x)
-     fmt.Println("The random number you are given is",x)
+     X := randPick(x)
+     fmt.Println("The random number you are given is",X)
+     x = X
     }
 
     // inside itial loop until "done": after random, or if number selection made use if statements to get the appropriate info from selection to display 
@@ -277,17 +278,14 @@ func main (){
       fmt.Println("#",game24.Number,game24.Name,"hours played:",game24.Hrs,"\n","genre:",game24.Genre,"\n","synopsis:",game24.Synopsis)
     }else if x == "25" {
       fmt.Println("#",game25.Number,game25.Name,"hours played:",game25.Hrs,"\n","genre:",game25.Genre,"\n","synopsis:",game25.Synopsis)
-    }else {
-      fmt.Println("Please select a valid option.")
     }
-
-    // prompt for new selection after appropriate info displayed before repeating loop or ending program
+    
+     // prompt for new selection after appropriate info displayed before repeating loop or ending program
     fmt.Println("Please enter the game you would like to know more about by entering the associated number. You may also select 'random' if you need help picking somewhere to start.You may also type 'done' to end the program.")
     fmt.Println(game1.Number,game1.Name,"\n",game2.Number,game2.Name,"\n",game3.Number,game3.Name,"\n",game4.Number,game4.Name,"\n",game5.Number,game5.Name,"\n",game6.Number,game6.Name,"\n",game7.Number,game7.Name,"\n",game8.Number,game8.Name,"\n",game9.Number,game9.Name,"\n",game10.Number,game10.Name,"\n",game11.Number,game11.Name,"\n",game12.Number,game12.Name,"\n",game13.Number,game13.Name,"\n",game14.Number,game14.Name,"\n",game15.Number,game15.Name,"\n",game16.Number,game16.Name,"\n",game17.Number,game17.Name,"\n",game18.Number,game18.Name,"\n",game19.Number,game19.Name,"\n",game20.Number,game20.Name,"\n",game21.Number,game21.Name,"\n",game22.Number,game22.Name,"\n",game23.Number,game23.Name,"\n",game24.Number,game24.Name,"\n",game25.Number,game25.Name)
     fmt.Scanln(&x)
- }
+    }
 
-  
-
+   fmt.Println("Thank you for using my program to learn about my top games. I hope one or more of these has sparked your interest and you get a chance to experience these great games.")  
 
 }
