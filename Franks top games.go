@@ -239,13 +239,13 @@ func main (){
     }else if x == "10" {
       fmt.Println(game10.Number,game10.Name,game10.Hrs,"\n",game10.Genre,game10.Synopsis)
     }else if x == "11" {
-      fmt.Println(game11.Number,game11.Name,game11.Hrs,"\n",game11.Genre,game11.Synopsis)
+      fmt.Println("#"game11.Number,game11.Name,"hours played:",game11.Hrs,"\n","genre",game11.Genre,"synopsis:"game11.Synopsis)
     }else if x == "12" {
-      fmt.Println(game12.Number,game12.Name,game12.Hrs,"\n",game12.Genre,game12.Synopsis)
+      fmt.Println("#"game12.Number,game12.Name,"hours played:",game12.Hrs,"\n","genre:",game12.Genre,"synopsis:",game12.Synopsis)
     }else if x == "13" {
-      fmt.Println(game13.Number,game13.Name,game13.Hrs,"\n",game13.Genre,game13.Synopsis)
+      fmt.Println("#",game13.Number,game13.Name,"hours played:"game13.Hrs,"\n","genre:",game13.Genre,"synopsis:"game13.Synopsis)
     }else if x == "14" {
-      fmt.Println(game14.Number,game14.Name,game14.Hrs,"\n",game14.Genre,game14.Synopsis)
+      fmt.Println("#",game14.Number,game14.Name,"hours played:",game14.Hrs,"\n","genre:",game14.Genre,"synopsis:",game14.Synopsis)
     }else if x == "15" {
       fmt.Println(game15.Number,game15.Name,game15.Hrs,"\n",game15.Genre,game15.Synopsis)
     }else if x == "16" {
