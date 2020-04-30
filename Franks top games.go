@@ -215,7 +215,7 @@ func main (){
     for x == "random" || x == "Random" || x == "RANDOM" {
      x := randPick(x)
      fmt.Println("The random number you are given is",x)
-     x = x
+     
     }
      
     if x == "1" {
@@ -271,6 +271,9 @@ func main (){
     }else {
       fmt.Println("Please select a valid option.")
     }
+    fmt.Println("Please enter the game you would like to know more about by entering the associated number. You may also select 'random' if you need help picking somewhere to start.You may also type 'done' to end the program.")
+    fmt.Println(game1.Number,game1.Name,"\n",game2.Number,game2.Name,"\n",game3.Number,game3.Name,"\n",game4.Number,game4.Name,"\n",game5.Number,game5.Name,"\n",game6.Number,game6.Name,"\n",game7.Number,game7.Name,"\n",game8.Number,game8.Name,"\n",game9.Number,game9.Name,"\n",game10.Number,game10.Name,"\n",game11.Number,game11.Name,"\n",game12.Number,game12.Name,"\n",game13.Number,game13.Name,"\n",game14.Number,game14.Name,"\n",game15.Number,game15.Name,"\n",game16.Number,game16.Name,"\n",game17.Number,game17.Name,"\n",game18.Number,game18.Name,"\n",game19.Number,game19.Name,"\n",game20.Number,game20.Name,"\n",game21.Number,game21.Name,"\n",game22.Number,game22.Name,"\n",game23.Number,game23.Name,"\n",game24.Number,game24.Name,"\n",game25.Number,game25.Name)
+    fmt.Scanln(&x)
  }
 
   
